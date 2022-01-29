@@ -30,10 +30,18 @@ header ul li{
      /* align-content: center; */
  }
  #nav-bar{
-   display: inline-flex;
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+   justify-content: center;
+   justify-items: center;
+   display: block;
+   width: 1 rem;
+   text-decoration: none;
      position:absolute;
      top:0;
      }
+     
     #search-box{
         position:absolute;
         top: 5px;
